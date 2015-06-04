@@ -1,0 +1,61 @@
+h1, h2 {
+    font-family: 'Droid Sans', sans-serif;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+}
+.jumbotron{
+    margin-bottom: 0px;
+    background-color: #89b4fd;
+}
+.jumbotron h1{
+    color: white;
+}
+
+.navbar-default{
+    background-color: #5394FF;
+    color: #ffffff;
+    border-color: #5394FF;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar + a{
+    margin: 0px;
+
+}
+.navbar-default .navbar-collapse{
+    border: none;
+}
+.nav>li>a{
+    color: #ffffff;
+    font-size: 16px;
+}
