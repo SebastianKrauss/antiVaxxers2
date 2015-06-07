@@ -195,3 +195,23 @@ h3{
 .footer p, .footer a{
     display: inline;
 }
+
+#hillsImage{
+    width: 100%;
+}
+
+.storyBox{
+    text-align: center;
+}
+
+.storyBox p{
+    text-align: left;
+}
+
+.storyImage{
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    margin: 5px;
+    box-shadow: 3px 3px 5px lightgrey;
+}
