@@ -61,6 +61,7 @@ h3{
     font-size: 16px;
     vertical-align: center;
     padding-top: 13px;
+    min-width: 150px;
 }
 
 .nav>li>a:hover, .nav>li>a:focus{
@@ -95,26 +96,48 @@ h3{
     background-color: #4990e1;
 }
 
+.carousel-inner>.item>img, .carousel-inner>.item>a>img,{
+    margin: auto;
+}
+
+#myCarousel{
+    height: 500px;
+    overflow: hidden;
+}
+
+.contentInnerDiv{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
 .contentDivEven{
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     padding-top: 50px;
-    padding-right: 8%;
+    overflow:hidden; 
+    zoom:1; 
 
 }
 
 .contentDivOdd{
     background: #EFEFEF; 
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     padding-top: 50px;
-    padding-left: 8%; 
+    overflow:hidden; 
+    zoom:1;  
 }
 
 .icons{
-    height: 100px;
+    width: 100px;
 }
 
 .iconsCenter{
-    height: 100px;
+    margin-bottom: 30px;
+    width: 100px;
+    float: center;
+}
+
+.iconsCenterDiv{
     text-align: center;
 }
 
@@ -123,7 +146,6 @@ h3{
 }
 
 .moreButtons{
-    margin-top: 20px;
     color: white;
     background-color: #4990e1;
     border-radius: 5px;
@@ -139,15 +161,37 @@ h3{
 }
 
 .moreButtonsRight{
-    margin-right: 35px;
+    margin-right: 25px;
     float: right;
 }
 
 .moreButtonsLeft{
-    margin-left: 10px;
+    margin-left: 15px;
     float: left;
 }
 
 #banner{
     width: 100%;
+}
+
+#about{
+    text-align: center;
+}
+
+#team{
+    float: center;
+    margin-top: 25px;
+    height: 200px;
+}
+
+.footer{
+    margin-top: 30px;
+    height: 50px;
+    background-color: #e3e3e3; 
+    text-align: center;
+    padding-top: 17px;
+}
+
+.footer p, .footer a{
+    display: inline;
 }
