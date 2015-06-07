@@ -201,6 +201,8 @@ h3{
 }
 
 .storyBox{
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -221,4 +223,8 @@ h3{
     -moz-box-shadow:    0px 0px 5px 3px #D8D8D8;
     -webkit-box-shadow: 0px 0px 5px 3px #D8D8D8;
     box-shadow:         0px 0px 5px 3px #D8D8D8;
+}
+
+.lastP{
+    margin-bottom: 50px;
 }
