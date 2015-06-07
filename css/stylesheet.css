@@ -1,6 +1,11 @@
 h1, h2 {
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    font-weight: lighter;
     color: white;
+}
+
+#title h2 {
+    margin-top: -10px;
 }
 
 h3{
@@ -32,20 +37,24 @@ h3{
 }
 .jumbotron{
     margin-bottom: 0px;
-    background-color: #89b4fd;
+    background-color: #4990e1;
 }
 .jumbotron h1{
     color: white;
 }
 
 .navbar-default{
-    background-color: #5394FF;
+    background-color: #3b7ecc;
     color: #ffffff;
     border-color: #5394FF;
 }
 
 .navbar{
-    margin-bottom: 0px;
+    border-radius: none !important;
+}
+
+.nacbar .navbar-default{
+    padding-bottom: 0px;
 }
 
 .navbar + a{
@@ -55,7 +64,29 @@ h3{
 .navbar-default .navbar-collapse{
     border: none;
 }
-.nav>li>a{
+.nav li a {
     color: #ffffff;
+    margin-bottom: 0px;
     font-size: 16px;
+    vertical-align: center;
+    padding-top: 13px;
+}
+
+#logo {
+    height: 120px;
+    margin-top: 20px;
+}
+
+.social {
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+#socialDiv a :hover{
+    color: #e3e3e3;
+}
+
+.socialRight {
+    padding-left: 10px;
 }
