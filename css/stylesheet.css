@@ -45,31 +45,27 @@ h3{
 
 .navbar-default{
     background-color: #3b7ecc;
-    color: #ffffff;
+    color: #e3e3e3;
     border-color: #5394FF;
 }
 
 .navbar{
-    border-radius: none !important;
-}
-
-.nacbar .navbar-default{
-    padding-bottom: 0px;
-}
-
-.navbar + a{
-    margin: 0px;
-
-}
-.navbar-default .navbar-collapse{
+    margin-bottom: 0px;
+    border-radius: 0px;
     border: none;
 }
+
 .nav li a {
-    color: #ffffff;
+    color: #e3e3e3;
     margin-bottom: 0px;
     font-size: 16px;
     vertical-align: center;
     padding-top: 13px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+    color: #ffffff;
+    background: none;
 }
 
 #logo {
@@ -89,4 +85,65 @@ h3{
 
 .socialRight {
     padding-left: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #dddddd;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: #4990e1;
+}
+
+.contentDivEven{
+    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-right: 8%;
+
+}
+
+.contentDivOdd{
+    background: #EFEFEF; 
+    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-left: 8%; 
+}
+
+.icons{
+    height: 100px;
+}
+
+.iconsCenter{
+    height: 100px;
+    text-align: center;
+}
+
+.contentTitle{
+    margin-bottom: 40px;
+}
+
+.moreButtons{
+    margin-top: 20px;
+    color: white;
+    background-color: #4990e1;
+    border-radius: 5px;
+    padding: 10px;
+    border-bottom: 4px solid #3b7ecc;
+}
+
+.moreButtons:hover{
+    text-decoration: none;
+    color: #F5F5F5;
+    background-color: #4282D1;
+    border-bottom: 4px solid #3472BC;
+}
+
+.moreButtonsRight{
+    margin-right: 35px;
+    float: right;
+}
+
+.moreButtonsLeft{
+    margin-left: 10px;
+    float: left;
 }
