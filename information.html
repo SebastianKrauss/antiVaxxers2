@@ -36,6 +36,13 @@
         <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
         <!--<?xml-stylesheet type="text/css" href="./css/stylesheet.css" ?>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            function scrollTo(div) {
+                $('html, body').animate({ scrollTop: $(div).offset().top }, 'slow');
+                return false;
+            }
+        </script>
   </head>
 
   <body>
@@ -74,10 +81,10 @@
              <!-- Collect the nav links, forms, and other content for toggling -->
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                  <ul class="nav nav-justified">
-                     <li><a href="#recommendations">Recommendations</a></li>
-                     <li><a href="#benefits">Benefits</a></li>
-                     <li><a href="#organizations">Organizations</a></li>
-                     <li><a href="#experts">Experts</a></li>
+                     <li><a href="#recommendations" onclick="scrollTo(recommendations)">Recommendations</a></li>
+                     <li><a href="#benefits" onclick="scrollTo(benefits)">Benefits</a></li>
+                     <li><a href="#organizations" onclick="scrollTo(organizations)">Organizations</a></li>
+                     <li><a href="#experts" onclick="scrollTo(experts)">Experts</a></li>
 
                  </ul>
              </div><!-- /.navbar-collapse -->

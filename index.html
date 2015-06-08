@@ -36,6 +36,13 @@
         <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
         <!--<?xml-stylesheet type="text/css" href="./css/stylesheet.css" ?>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            function scrollTo(div) {
+                $('html, body').animate({ scrollTop: $(div).offset().top }, 'slow');
+                return false;
+            }
+        </script>
   </head>
 
   <body>
@@ -74,12 +81,12 @@
              <!-- Collect the nav links, forms, and other content for toggling -->
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                  <ul class="nav nav-justified">
-                     <li><a href="#information">Information</a></li>
-                     <li><a href="#personal_stories">Personal Stories</a></li>
-                     <li><a href="#news">News</a></li>
-                     <li><a href="#games">Games</a></li>
-                     <li><a href="#store">Stores</a></li>
-                     <li><a href="#about">About</a></li>
+                     <li><a href="#information" onclick="scrollTo(information)">Information</a></li>
+                     <li><a href="#personal_stories" onclick="scrollTo(personal_stories)">Personal Stories</a></li>
+                     <li><a href="#news" onclick="scrollTo(news)">News</a></li>
+                     <li><a href="#games" onclick="scrollTo(games)">Games</a></li>
+                     <li><a href="#store" onclick="scrollTo(store)">Stores</a></li>
+                     <li><a href="#about" onclick="scrollTo(about)">About</a></li>
                  </ul>
              </div><!-- /.navbar-collapse -->
          </div><!-- /.container-fluid -->
@@ -91,21 +98,27 @@
              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
              <li data-target="#myCarousel" data-slide-to="1"></li>
              <li data-target="#myCarousel" data-slide-to="2"></li>
+             <li data-target="#myCarousel" data-slide-to="3"></li>
+             <li data-target="#myCarousel" data-slide-to="4"></li>
          </ol>
 
          <!-- Wrapper for slides -->
          <div class="carousel-inner" role="listbox">
             <div class="item active">
-                 <img src="images/Family2.jpg" alt="Chania">
+                 <img src="images/1.jpg" alt="Chania">
+             </div>
+             <div class="item">
+                 <img src="images/2.jpg" alt="Chania">
              </div>
 
              <div class="item">
-                 <img src="images/Group.jpg" alt="Chania">
+                 <img src="images/3.jpg" alt="Flower">
              </div>
-             
-
              <div class="item">
-                 <img src="images/Family4.jpg" alt="Flower">
+                 <img src="images/4.jpg" alt="Flower">
+             </div>
+             <div class="item">
+                 <img src="images/5.jpg" alt="Flower">
              </div>
          </div>
 
@@ -215,8 +228,6 @@
         </footer>
 
     </div><!-- /.container -->
-
-
 
     </body>
 </html>

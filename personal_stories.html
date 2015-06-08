@@ -36,12 +36,21 @@
         <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
         <!--<?xml-stylesheet type="text/css" href="./css/stylesheet.css" ?>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            function scrollTo(div) {
+                $('html, body').animate({ scrollTop: $(div).offset().top }, 'slow');
+                return false;
+            }
+        </script>
   </head>
 
   <body>
      <div class="jumbotron">
       <div class="container">
-          <a href="index.html"><img id="logo" src="./images/syringe.svg" class="col-xs-12 col-md-3 col-lg-3"/></a>
+          <div class="col-xs-12 col-md-3 col-lg-3">
+              <a href="index.html"><img id="logo" src="./images/syringe.svg"/></a>
+          </div>
           <div class="col-xs-12 col-md-6 col-lg-6" id="title">
               <h1>Take a Shot</h1>
               <h2>Because everyone should vaccinate</h2>
@@ -72,10 +81,10 @@
              <!-- Collect the nav links, forms, and other content for toggling -->
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                  <ul class="nav nav-justified">
-                    <li><a href="#hall">Hall</a></li>
-                    <li><a href="#hills">Hills</a></li>
-                    <li><a href="#phillips">Phillips</a></li>
-                    <li><a href="#stringer">Stringer</a></li>
+                    <li><a href="#hall" onclick="scrollTo(hall)">Hall</a></li>
+                    <li><a href="#hills" onclick="scrollTo(hills)">Hills</a></li>
+                    <li><a href="#phillips" onclick="scrollTo(phillips)">Phillips</a></li>
+                    <li><a href="#stringer" onclick="scrollTo(stringer)">Stringer</a></li>
                  </ul>
              </div><!-- /.navbar-collapse -->
          </div><!-- /.container-fluid -->
