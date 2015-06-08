@@ -272,3 +272,17 @@ h3{
     color: white;
     text-decoration: none;
 }
+
+#video{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#videoTitle{
+    margin-top: 50px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
