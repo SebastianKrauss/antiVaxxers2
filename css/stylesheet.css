@@ -252,3 +252,23 @@ h3{
 .infoButton{
     margin-left: 15px;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: #3B7BD9;
+    opacity: 0.5;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #3B7BD9;
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+}
